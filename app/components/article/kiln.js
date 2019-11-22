@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports = schema => schema;
-
 const { whenLedeImageUrlExists } = require('./utils'),
   KilnInput = window.kiln.kilnInput;
 
